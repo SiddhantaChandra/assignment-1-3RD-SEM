@@ -14,6 +14,14 @@ html {
 }
 
 /* Navigation */
+.nav-logo:link, .nav-logo:visited{
+text-decoration: none;
+}
+
+.nav-logo:hover, .nav-logo:active{
+  filter: invert(51%) sepia(64%) saturate(3060%) hue-rotate(230deg)
+    brightness(100%) contrast(101%);
+}
 
 .navigation-bar {
   background-color: #1d1d1d;

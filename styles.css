@@ -6,6 +6,8 @@ html {
   background-color: #242424;
 }
 
+
+
 .container {
   max-width: 192rem;
   margin: 0 auto;
@@ -68,6 +70,7 @@ h1 {
 .profile-description {
   padding-top: 2.4rem;
   width: 56rem;
+  padding-bottom: 6rem;
 }
 
 .profile-title {
@@ -209,4 +212,18 @@ h2{
   padding-inline-start: 1.2rem;
   }
 
-  
+  .icon-git{
+    height:4rem;
+  }
+
+  .git-link:link, .git-link:visited{
+    padding-top: 2.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    border: none;
+  }
+
+  .git-link-text{
+    font-size: 1.6rem;
+  }
